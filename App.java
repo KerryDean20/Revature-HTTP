@@ -11,7 +11,7 @@ public class App {
 			Socket connection = server.accept();
 			OutputStream response = connection.getOutputStream();
 
-			String content = "<h1>Hello World!</h1>";
+			String content = "<h1>Hello World.</h1>";
 
 			String body = "HTTP/1.1 200 OK" + "\r\n";
 			body += "Content_Type: text/html" +"\r\n";
